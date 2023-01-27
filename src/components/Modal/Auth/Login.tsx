@@ -24,6 +24,7 @@ const Login: React.FC<LoginProps> = () => {
   return (
     <form onSubmit={onSubmit}>
       <Input
+        required
         name="email"
         placeholder="email"
         type="email"
@@ -45,6 +46,7 @@ const Login: React.FC<LoginProps> = () => {
         bg="gray.50"
       />
       <Input
+        required
         name="password"
         placeholder="password"
         type="password"
